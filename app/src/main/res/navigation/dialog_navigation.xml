@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/signFragment">
+
+    <dialog
+        android:id="@+id/signInDialog"
+        android:name="com.example.cafeterian.view.dialog.SignInDialog"
+        android:label="SignInDialog">
+        <action
+            android:id="@+id/action_signInDialog_to_signUpDialog"
+            app:destination="@id/signUpDialog" />
+    </dialog>
+
+    <dialog
+        android:id="@+id/signUpDialog"
+        android:name="com.example.cafeterian.view.dialog.SignUpDialog"
+        android:label="SignUpDialog">
+        <action
+            android:id="@+id/action_signUpDialog_to_signInDialog"
+            app:destination="@id/signInDialog" />
+    </dialog>
+
+    <fragment
+        android:id="@+id/signFragment"
+        android:name="com.example.cafeterian.view.fragment.SignFragment"
+        android:label="SignFragment">
+        <action
+            android:id="@+id/action_signFragment_to_signUpDialog"
+            app:destination="@id/signUpDialog" />
+        <action
+            android:id="@+id/action_signFragment_to_signInDialog"
+            app:destination="@id/signInDialog" />
+    </fragment>
+</navigation>

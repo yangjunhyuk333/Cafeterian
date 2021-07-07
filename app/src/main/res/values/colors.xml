@@ -7,4 +7,14 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray">#737373</color>
+    <color name="statusBarColor_White">#FFF6D3</color>
+    <color name="statusBarColor_Black">#5F5F5F</color>
+    <color name="mainColor">#FFFBEB</color>
+    <color name="mainDarkColor">#1F1F1F</color>
+    <color name="gestureTextColor">#727272</color>
+    <color name="mainButtonColor">#F5DF4D</color>
+    <color name="buttonTextColor">#939597</color>
+    <color name="bottomDialogDarkBackgroundColor">#353535</color>
+    <color name="bottomDialogDarkTextColor">#B1B1B1</color>
 </resources>

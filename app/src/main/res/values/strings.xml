@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Cafeterian</string>
+    <string name="splash_logo">splash_logo</string>
+    <string name="ad_text">이 앱은 유료 광고를 포함하고 있습니다.</string>
+    <string name="logo_image">logo</string>
+    <string name="sign_question">계정이 없으신가요?</string>
+    <string name="google_sign">구글 로그인</string>
+    <string name="email_sign">이메일로 로그인</string>
+    <string name="email_icon">email_icon</string>
+    <string name="login_text">Login</string>
+    <string name="sign_up_text">Signup</string>
+    <string name="name_text">Name</string>
+    <string name="email_text">Email</string>
+    <string name="password_text">Password</string>
 </resources>
